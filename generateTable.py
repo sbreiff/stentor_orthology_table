@@ -11,21 +11,21 @@ ng : 'NO_GROUP' - genes that matched individual proteins in OrthoMCL db that are
 from Bio import SeqIO
 import csv
 
-cam_dict = {'../taxonomic/tetrahymena_only.txt' : 'Ciliate-specific', 
-            '../taxonomic/api_only.txt' : 'Apicomplexan-specific',
-            '../taxonomic/alveolate_only.txt' : 'Alveolate-specific', 
-            '../taxonomic/CAM.txt' : 'Alveolates + Metazoa',
-            '../taxonomic/metazoa.txt' : 'Metazoa', 
-            '../taxonomic/metazoa_ciliates.txt' : 'Ciliates + Metazoa',
-            '../taxonomic/metazoa_apicomplexans.txt' : 'Apicomplexans + Metazoa'}
+cam_dict = {'tetrahymena_only.txt' : 'Ciliate-specific', 
+            'api_only.txt' : 'Apicomplexan-specific',
+            'alveolate_only.txt' : 'Alveolate-specific', 
+            'CAM.txt' : 'Alveolates + Metazoa',
+            'metazoa.txt' : 'Metazoa', 
+            'metazoa_ciliates.txt' : 'Ciliates + Metazoa',
+            'metazoa_apicomplexans.txt' : 'Apicomplexans + Metazoa'}
 
-domain_dict = {'../taxonomic/bacteria_only.txt' : 'Bacteria Only', 
-               '../taxonomic/archaea_only.txt' : 'Archaea Only', 
-               '../taxonomic/euk_only.txt' : 'Eukaryotes Only', 
-               '../taxonomic/prokaryote_only.txt' : 'Bacteria + Archaea', 
-               '../taxonomic/bact_euk.txt' : 'Bacteria + Eukaryotes', 
-               '../taxonomic/arch_euk.txt' : 'Archaea + Eukaryotes', 
-               '../taxonomic/alldomains.txt' : 'All Domains'}
+domain_dict = {'bacteria_only.txt' : 'Bacteria Only', 
+               'archaea_only.txt' : 'Archaea Only', 
+               'euk_only.txt' : 'Eukaryotes Only', 
+               'prokaryote_only.txt' : 'Bacteria + Archaea', 
+               'bact_euk.txt' : 'Bacteria + Eukaryotes', 
+               'arch_euk.txt' : 'Archaea + Eukaryotes', 
+               'alldomains.txt' : 'All Domains'}
 
 # OrthologGroup class definition
 class OrthologGroup:
