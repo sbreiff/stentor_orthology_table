@@ -1,8 +1,8 @@
 # stentor_orthology_table
 For assigning Stentor gene models into ortholog groups
 
-This repository contains a script for categorizing Stentor OrthoMCL results and organizing into a table.
-Resulting data can be found in Figure 2B, Figure S2A-B, and Table S2 of the [http://www.cell.com/current-biology/fulltext/S0960-9822(16)31539-1](Stentor genome paper).
+This repository contains a script for categorizing Stentor OrthoMCL results and organizing into a table, as well as text files containing lists of ortholog groups with specific phyletic patterns.
+Resulting data can be found in Figure 2B, Figure S2A-B, and Table S2 of the [Stentor genome paper](http://www.cell.com/current-biology/fulltext/S0960-9822(16)31539-1).
 
 Basic description of workflow:
 1. OrthoMCL was run on the Stentor predicted proteins to organize them into ortholog groups
